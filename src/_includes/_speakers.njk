@@ -1,25 +1,29 @@
 <section class="section s-speakers " id="speakers">
    <div class="container">
    <h3 class="section__title">
-      
+      {{blocks.title}}
    </h3>
    <div class="speakers-list">
+      {% for speaker in blocks.speakers %}
       <div class="speakers-list__item">
+         
          <div class="speaker">
-         <div class="speaker__photo">
-            <picture>
-               <img src="https://media.graphassets.com/resize=fit:crop,height:500,width:500/output=format:jpg/KNCsUTMuTQa9oFubkwaw" alt="">
-            </picture>
+            <div class="speaker__photo">
+               <picture>
+                  <img src="{{speaker.avatar}}" alt="">
+               </picture>
+            </div>
+            <div class="speaker__name">Swizec Teller</div>
+            <div class="speaker__company">Tia, USA</div>
+            <div class="speaker__talk"><span>Talk:</span> On Becoming a Tech Lead</div>
+            <div class="speaker__desc">
+               <p>Author of the "<a href="https://swizec.com/senior-mindset/">Senior Engineer Mindset</a>" book.</p>
+               <p>Swizec is a software engineer, author, educator, and conference speaker. He's published books on modern web technologies, data visualization, and productivity, and has trained engineering teams at Fortune500 companies. Now he's distilling 20 years of tacit experience into actionable steps.</p>
+            </div>
          </div>
-         <div class="speaker__name">Swizec Teller</div>
-         <div class="speaker__company">Tia, USA</div>
-         <div class="speaker__talk"><span>Talk:</span> On Becoming a Tech Lead</div>
-         <div class="speaker__desc">
-            <p>Author of the "<a href="https://swizec.com/senior-mindset/">Senior Engineer Mindset</a>" book.</p>
-            <p>Swizec is a software engineer, author, educator, and conference speaker. He's published books on modern web technologies, data visualization, and productivity, and has trained engineering teams at Fortune500 companies. Now he's distilling 20 years of tacit experience into actionable steps.</p>
-         </div>
-         </div>
+        
       </div>
+       {% endfor %}
       <div class="speakers-list__item speakers-list__item_cfp">
          <p class="speaker__name">WANT TO KNOW THE REST?</p>
          <p class="speaker__company">
