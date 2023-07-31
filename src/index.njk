@@ -1,0 +1,39 @@
+---
+layout: 'layout.njk'
+slug: 'home'
+lang: 'lat'
+
+permalink:
+    build: 'index.html'
+    serverless: '{{ slug }}'
+---
+
+{% include '_header.njk' %}
+
+{% for pages in data.pages %}
+   {% if  pages.slug == slug %}
+      
+
+      {% for blocks in pages.blocks %}
+         {% if  blocks.component == "hero" %}
+            {% include '_hero.njk' %}
+         {% endif %}
+
+         {% if  blocks.component == "event" %}
+            {% include '_event.njk' %}
+         {% endif %}
+
+         {% if  blocks.component == "features" %}
+            {% include '_features.njk' %}
+         {% endif %}
+
+         {% if  blocks.component == "speakers" %}
+            {% include '_speakers.njk' %}
+         {% endif %}
+      {% endfor %}
+
+     
+   {% endif %}
+{% endfor %}
+
+{% include '_footer.njk' %}

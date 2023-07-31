@@ -1,0 +1,52 @@
+<div class="hero" id="hero">
+   {% if blocks.screens %}
+      <div class="screens-wrap">
+         <div class="screens">
+            {% for screen in blocks.screens %}
+            <div class="screens__item">
+               <div class="screens__overlay">
+               <img src="assets/img/{{screen.iconFace}}.svg" alt="">
+               </div>
+               {% if screen.speakerHandle %}
+                  <img class="screens__img" src="{{screen.speakerHandle}}">
+               {% endif %}
+            </div>
+            {% endfor %}
+         </div>
+      </div>
+   {% endif %}
+   <div class="hero__inner">
+      <div class="hero__logo">
+         <a href="/" class="logo"><img src="assets/img/logo.svg" alt="Tech_Lead_JS"></a>
+      </div>
+      {% if blocks.subtitle %}
+         <div class="hero__suptitle">
+            {{blocks.subtitle}}
+         </div>
+      {% endif %}
+      <h1 class="hero__title">
+         {{blocks.title}}
+      </h1>
+
+      {% if blocks.statistics %}
+         <div class="hero__info">
+            <ul class="h-list ">
+               {% for static in blocks.statistics %}
+                  <li class="h-list__item">
+                     <div class="h-list__value">{{static.number}}</div>
+                     <div class="h-list__text">{{static.title}}</div>
+                  </li>
+               {% endfor %}
+            </ul>
+         </div>
+      {% endif %}
+      <div class="hero__btn">
+         {% if blocks.mainCTA %}
+            <a href="#multipass" class="btn">{{blocks.mainCTA}}</a>
+         {% endif %}
+         {% if blocks.secondaryCTA %}
+            <a href="#" class="btn btn--border">{{blocks.secondaryCTA}}</a>
+         {% endif %}
+      </div>
+   </div>
+</div>

@@ -1,0 +1,105 @@
+{
+	"name": "123",
+	"menuList": [
+		{
+			"lang": "lat",
+			"list": [
+				{
+					"title": "PAR MUMS",
+					"url": "/"
+				},
+				{
+					"title": "PAKALPOJUMI",
+					"url": "/services"
+				},
+				{
+					"title": "FOTO",
+					"url": "/photos"
+				},
+				{
+					"title": "KARTE",
+					"url": "/map"
+				},
+				{
+					"title": "KONTAKTI",
+					"url": "/contacts"
+				}
+			]
+		},
+		{
+			"lang": "rus",
+			"list": [
+				{
+					"title": "О НАС",
+					"url": "/index_rus"
+				},
+				{
+					"title": "УСЛУГИ",
+					"url": "/services_rus"
+				},
+				{
+					"title": "ФОТО",
+					"url": "/photos_rus"
+				},
+				{
+					"title": "КАРТА",
+					"url": "/map_rus"
+				},
+				{
+					"title": "КОНТАКТЫ",
+					"url": "/contacts_rus"
+				}
+			]
+		},
+		{
+			"lang": "eng",
+			"list": [
+				{
+					"title": "ABOUT US",
+					"url": "/index_eng"
+				},
+				{
+					"title": "SERVICES",
+					"url": "/services_eng"
+				},
+				{
+					"title": "PHOTO",
+					"url": "/photos_eng"
+				},
+				{
+					"title": "MAP",
+					"url": "/map_eng"
+				},
+				{
+					"title": "CONTACTS",
+					"url": "/contacts_eng"
+				}
+			]
+		},
+		{
+			"lang": "deu",
+			"list": [
+				{
+					"title": "ÜBER UNS",
+					"url": "/index_deu"
+				},
+				{
+					"title": "DIENSTLEISTUNGEN",
+					"url": "/services_deu"
+				},
+				{
+					"title": "FOTO",
+					"url": "/photos_deu"
+				},
+				{
+					"title": "KARTE",
+					"url": "/map_deu"
+				},
+				{
+					"title": "KONTAKT",
+					"url": "/contacts_deu"
+				}
+			]
+		}
+	]
+}
