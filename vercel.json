@@ -1,7 +1,0 @@
-{
-  "functions": {
-     "api/dynamic/[slug].js":  {
-       "includeFiles": "functions/**"
-     }
-  }
-}

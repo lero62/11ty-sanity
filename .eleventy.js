@@ -1,13 +1,7 @@
 let Nunjucks = require("nunjucks");
-const { EleventyServerlessBundlerPlugin } = require("@11ty/eleventy");
 require("dotenv").config();
 
 module.exports = function (eleventyConfig) {
-	eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
-		name: "serverless", // The serverless function name from your permalink object
-		redirects: false,
-	});
-
 	eleventyConfig.addPassthroughCopy("src/assets");
 
 	let nunjucksEnvironment = new Nunjucks.Environment(
