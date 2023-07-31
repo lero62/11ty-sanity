@@ -52,15 +52,15 @@
 	"socials": [
 		{
 			"url": "https://twitter.com/TheTechLeadConf",
-			"icon": "assets/img/instagram.svg"
+			"icon": "/assets/img/instagram.svg"
 		},
 		{
 			"url": "https://www.youtube.com/@JavaScriptConferences",
-			"icon": "assets/img/fb.svg"
+			"icon": "/assets/img/fb.svg"
 		},
 		{
 			"url": "https://portal.gitnation.org/",
-			"icon": "assets/img/tw.svg"
+			"icon": "/assets/img/tw.svg"
 		}
 	],
 	"fullTicket": {

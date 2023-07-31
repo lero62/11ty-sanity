@@ -1,8 +1,9 @@
 {
-	"title": "",
 	"pages": [
 		{
 			"slug": "home",
+			"seoTitle": "TechLead Conference - Unlock Your Potential for Leadership, Teamwork, and Career Growth",
+			"seoDescription": "Join us at the TechLead Conference and take your professional development to the next level! Gain valuable insights on best practices, skills improvement, and innovative technology. Network with like-minded professionals, learn from top leaders, and be inspired by our keynote speakers. Get mentored by experienced team leads and explore diversity and inclusion, talent management, and career growth. Enhance your leadership and teamwork skills and build valuable relationships in the tech industry. Register now!",
 			"blocks": [
 				{
 					"screens": [
@@ -296,6 +297,8 @@
 		},
 		{
 			"slug": "faq",
+			"seoTitle": "FAQ",
+			"seoDescription": "",
 			"blocks": [
 				{
 					"component": "hero",

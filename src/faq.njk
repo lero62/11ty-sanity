@@ -2,10 +2,9 @@
 layout: 'layout.njk'
 slug: 'faq'
 lang: 'lat'
-
 ---
 
-{% include '_header.njk' %}
+
 
 {% for pages in data.pages %}
    {% if pages.slug == slug %}
@@ -24,4 +23,3 @@ lang: 'lat'
    {% endif %}
 {% endfor %}
 
-{% include '_footer.njk' %}
