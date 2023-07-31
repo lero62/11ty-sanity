@@ -151,23 +151,23 @@
 							"text": "<p>Author of the <a href=\"https://swizec.com/senior-mindset/\">Senior Engineer Mindset</a> book.</p><p>Swizec is a software engineer, author, educator, and conference speaker. He's published books on modern web technologies, data visualization, and productivity, and has trained engineering teams at Fortune500 companies. Now he's distilling 20 years of tacit experience into actionable steps.</p>"
 						},
 						{
-							"avatar": "https://media.graphassets.com/resize=fit:crop,height:500,width:500/output=format:jpg/KNCsUTMuTQa9oFubkwaw",
-							"name": "Swizec Teller",
+							"avatar": "https://media.graphassets.com/resize=fit:crop,height:500,width:500/output=format:jpg/JlRsK3w2QIKa2rWXvhFI",
+							"name": "Erin Fox",
 							"company": "Tia, USA",
 							"talk": "<span>Talk:</span>  On Becoming a Tech Lead",
 							"text": "<p>I’m Erin - raised in the Bay Area, schooled in Sonoma, Hawaii, and NYC. I’m a software engineer with a drive for JavaScript, React, explaining things simply and cats. I hold a MA in Communication from Hawaii Pacific University and previously worked at Major League Soccer on the mobile team. I’ve given talks internationally and across the US on the work I’ve been doing. I keep busy with new side projects, reading all of Reese Witherspoon’s bookclub books, re-watching Frontend Master courses, and tweeting about it all on Twitter.</p>"
 						},
 						{
-							"avatar": "https://media.graphassets.com/resize=fit:crop,height:500,width:500/output=format:jpg/KNCsUTMuTQa9oFubkwaw",
-							"name": "Swizec Teller",
+							"avatar": "https://media.graphassets.com/resize=fit:crop,height:500,width:500/output=format:jpg/3TDFu9pQSWOebq5VtRSH",
+							"name": "Tara Z. Manicsic",
 							"company": "Tia, USA",
 							"talk": "<span>Talk:</span>  On Becoming a Tech Lead",
 							"text": "<p>I’m Erin - raised in the Bay Area, schooled in Sonoma, Hawaii, and NYC. I’m a software engineer with a drive for JavaScript, React, explaining things simply and cats. I hold a MA in Communication from Hawaii Pacific University and previously worked at Major League Soccer on the mobile team. I’ve given talks internationally and across the US on the work I’ve been doing. I keep busy with new side projects, reading all of Reese Witherspoon’s bookclub books, re-watching Frontend Master courses, and tweeting about it all on Twitter.</p>"
 						},
 						{
-							"avatar": "https://media.graphassets.com/resize=fit:crop,height:500,width:500/output=format:jpg/KNCsUTMuTQa9oFubkwaw",
-							"name": "Swizec Teller",
-							"company": "Tia, USA",
+							"avatar": "https://media.graphassets.com/resize=fit:crop,height:500,width:500/output=format:jpg/vdys7eolSMmIeG8yvaaj",
+							"name": "Alex Moldovan",
+							"company": "CodeSandbox, Romania",
 							"talk": "<span>Talk:</span>  On Becoming a Tech Lead",
 							"text": "<p>I’m Erin - raised in the Bay Area, schooled in Sonoma, Hawaii, and NYC. I’m a software engineer with a drive for JavaScript, React, explaining things simply and cats. I hold a MA in Communication from Hawaii Pacific University and previously worked at Major League Soccer on the mobile team. I’ve given talks internationally and across the US on the work I’ve been doing. I keep busy with new side projects, reading all of Reese Witherspoon’s bookclub books, re-watching Frontend Master courses, and tweeting about it all on Twitter.</p>"
 						},
@@ -190,7 +190,7 @@
 						"title": "WANT TO KNOW THE REST?",
 						"link": {
 							"text": "Follow us",
-							"url": "#"
+							"url": "#contact-form"
 						}
 					}
 				}

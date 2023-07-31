@@ -4,35 +4,35 @@ slug: 'home'
 lang: 'lat'
 
 permalink:
-    build: 'index.html'
-    serverless: '{{ slug }}'
+   build: 'index.html'
+   serverless: '{{ slug }}'
 ---
 
 {% include '_header.njk' %}
 
 {% for pages in data.pages %}
-   {% if  pages.slug == slug %}
-      
+   {% if pages.slug == slug %}
+
 
       {% for blocks in pages.blocks %}
-         {% if  blocks.component == "hero" %}
+         {% if blocks.component == "hero" %}
             {% include '_hero.njk' %}
          {% endif %}
 
-         {% if  blocks.component == "event" %}
+         {% if blocks.component == "event" %}
             {% include '_event.njk' %}
          {% endif %}
 
-         {% if  blocks.component == "features" %}
+         {% if blocks.component == "features" %}
             {% include '_features.njk' %}
          {% endif %}
 
-         {% if  blocks.component == "speakers" %}
+         {% if blocks.component == "speakers" %}
             {% include '_speakers.njk' %}
          {% endif %}
       {% endfor %}
 
-     
+
    {% endif %}
 {% endfor %}
 

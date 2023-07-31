@@ -13,23 +13,25 @@
                   <img src="{{speaker.avatar}}" alt="">
                </picture>
             </div>
-            <div class="speaker__name">Swizec Teller</div>
-            <div class="speaker__company">Tia, USA</div>
-            <div class="speaker__talk"><span>Talk:</span> On Becoming a Tech Lead</div>
+            <div class="speaker__name">{{speaker.name}}</div>
+            <div class="speaker__company">{{speaker.company}}</div>
+            <div class="speaker__talk">{{speaker.talk}}</div>
             <div class="speaker__desc">
-               <p>Author of the "<a href="https://swizec.com/senior-mindset/">Senior Engineer Mindset</a>" book.</p>
-               <p>Swizec is a software engineer, author, educator, and conference speaker. He's published books on modern web technologies, data visualization, and productivity, and has trained engineering teams at Fortune500 companies. Now he's distilling 20 years of tacit experience into actionable steps.</p>
+               {{speaker.text}}
             </div>
          </div>
         
       </div>
        {% endfor %}
+
+      {% if blocks.cfp %}
       <div class="speakers-list__item speakers-list__item_cfp">
-         <p class="speaker__name">WANT TO KNOW THE REST?</p>
+         <p class="speaker__name">{{blocks.cfp.title}}</p>
          <p class="speaker__company">
-         </p><p><a href="#contact-form">Follow us</a></p>
+         </p><p><a href="{{blocks.cfp.link.url}}">{{blocks.cfp.link.text}}</a></p>
          <p></p>
       </div>
+      {% endif %}
    </div>
    </div>
 </section>
