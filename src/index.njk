@@ -3,9 +3,6 @@ layout: 'layout.njk'
 slug: 'home'
 lang: 'lat'
 
-permalink:
-   build: 'index.html'
-   serverless: '{{ slug }}'
 ---
 
 {% include '_header.njk' %}
@@ -30,6 +27,28 @@ permalink:
          {% if blocks.component == "speakers" %}
             {% include '_speakers.njk' %}
          {% endif %}
+
+         {% if blocks.component == "schedule" %}
+            {% include '_schedule-btn.njk' %}
+         {% endif %}
+
+         {% if blocks.component == "full-ticket" %}
+            {% include '_full-ticket.njk' %}
+         {% endif %}
+
+         {% if blocks.component == "discussions" %}
+            {% include '_discussions.njk' %}
+         {% endif %}
+
+         {% if blocks.component == "follow-us" %}
+            {% include '_follow-us.njk' %}
+         {% endif %}
+
+         {% if blocks.component == "bars" %}
+            {% include '_bars.njk' %}
+         {% endif %}
+
+         
       {% endfor %}
 
 

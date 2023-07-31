@@ -3888,33 +3888,6 @@ a.e-item:hover .e-item__footer {
 	margin-top: 30px;
 }
 
-.faq__arrow {
-	position: absolute;
-	top: 30px;
-	right: 42px;
-	width: 10px;
-	height: 12px;
-	-webkit-transform: rotate(90deg);
-	-ms-transform: rotate(90deg);
-	transform: rotate(90deg);
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.faq__arrow .icon {
-	fill: #fff;
-}
-
-.faq__arrow:after {
-	content: "";
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 10px 0 10px 10px;
-	border-color: transparent transparent transparent #007bff;
-}
-
 .faq__item {
 	position: relative;
 	margin: 0 0 -2px;
@@ -3949,7 +3922,30 @@ a.e-item:hover .e-item__footer {
 	font-size: 22px;
 	font-weight: 500;
 	cursor: pointer;
+	color: #fff;
 	padding: 25px 90px 25px 40px;
+	display: block;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+	text-align: left;
+	background: transparent;
+}
+.faq__question:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: 30px;
+	margin-top: -8px;
+	height: 12px;
+	width: 12px;
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 
 .faq__ansver {
@@ -4191,10 +4187,9 @@ a.e-item:hover .e-item__footer {
 	fill: #fff;
 }
 
-.footer__socials .social__link .icon {
+.footer__socials .social__link img {
 	width: 36px;
 	height: 36px;
-	fill: #fff;
 }
 
 .footer__main {
@@ -4668,7 +4663,7 @@ a.e-item:hover .e-item__footer {
 	transition: all ease 0.1s;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
-	color: #2f2f2f;
+	color: #666;
 }
 
 .contact-form__input::-moz-placeholder {
@@ -4677,7 +4672,7 @@ a.e-item:hover .e-item__footer {
 	transition: all ease 0.1s;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
-	color: #2f2f2f;
+	color: #666;
 }
 
 .contact-form__input::-ms-input-placeholder {
@@ -4686,7 +4681,7 @@ a.e-item:hover .e-item__footer {
 	transition: all ease 0.1s;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
-	color: #2f2f2f;
+	color: #666;
 }
 
 .contact-form__input::placeholder {
@@ -4695,7 +4690,7 @@ a.e-item:hover .e-item__footer {
 	transition: all ease 0.1s;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
-	color: #2f2f2f;
+	color: #666;
 }
 
 .contact-form__submit {
@@ -4796,7 +4791,7 @@ a.e-item:hover .e-item__footer {
 	color: #fff;
 }
 
-.contact-form__submit .icon {
+.contact-form__submit img {
 	fill: #fff;
 	width: 16px;
 	height: 15px;
@@ -14216,7 +14211,7 @@ a.e-item:hover .e-item__footer {
 		order: 0;
 	}
 
-	.footer__socials .social__link .icon {
+	.footer__socials .social__link img {
 		width: 26px;
 		height: 26px;
 	}
@@ -15562,7 +15557,7 @@ a.e-item:hover .e-item__footer {
 		display: none;
 	}
 
-	.contact-form__submit .icon {
+	.contact-form__submit img {
 		display: block;
 	}
 

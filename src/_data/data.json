@@ -193,6 +193,150 @@
 							"url": "#contact-form"
 						}
 					}
+				},
+				{
+					"component": "schedule",
+					"text": "Schedule",
+					"url": "#"
+				},
+				{
+					"component": "full-ticket"
+				},
+				{
+					"component": "discussions",
+					"title": "Discussions",
+					"videoRooms": [
+						{
+							"icon": "https://media.graphassets.com/resize=fit:crop,height:512,width:512/output=format:png/068AmQYaRkCVaTGfyMGN",
+							"title": "HOW TO PREVENT BURNOUT?",
+							"speakers": [
+								{
+									"img": "https://media.graphassets.com/resize=fit:crop,height:100,width:100/output=format:png/CzoA9Hn0Tym7kPsFVMfS",
+									"name": "Ziv Levy"
+								},
+								{
+									"img": "https://media.graphassets.com/resize=fit:crop,height:100,width:100/output=format:png/oiQeR8YRpec1gDNkFt72",
+									"name": "Stefania Ioana Chiorean"
+								},
+								{
+									"img": "https://media.graphassets.com/resize=fit:crop,height:100,width:100/output=format:png/UWmiqSaOTr9sj0lecVa8",
+									"name": "Daniel Afonso"
+								}
+							]
+						},
+						{
+							"icon": "https://media.graphassets.com/resize=fit:crop,height:512,width:512/output=format:png/FOlpP86nSg2QvUkJwVM0",
+							"title": "WHEN TO SWITCH FROM AN IC ROLE TO MANAGEMENT?",
+							"speakers": [
+								{
+									"img": "https://media.graphassets.com/resize=fit:crop,height:100,width:100/output=format:png/UWmiqSaOTr9sj0lecVa8",
+									"name": "Daniel Afonso"
+								}
+							]
+						},
+						{
+							"icon": "https://media.graphassets.com/resize=fit:crop,height:512,width:512/output=format:png/Wd6b8WDMQK6mcYoyNINM",
+							"title": "EFFECTIVE MENTORSHIP: HOW TO MAKE SURE EVERYONE BECOMES A CRAFTSMAN",
+							"speakers": [
+								{
+									"img": "https://media.graphassets.com/resize=fit:crop,height:100,width:100/output=format:png/oiQeR8YRpec1gDNkFt72",
+									"name": "Stefania Ioana Chiorean"
+								},
+								{
+									"img": "https://media.graphassets.com/resize=fit:crop,height:100,width:100/output=format:png/UWmiqSaOTr9sj0lecVa8",
+									"name": "Daniel Afonso"
+								}
+							]
+						},
+						{
+							"icon": "https://media.graphassets.com/resize=fit:crop,height:512,width:512/output=format:png/DWPmyMRkQL6zBWW1PDQQ",
+							"title": "GROWING THE HIERARCHAL LADDER ISN'T PERSE THE BEST APPROACH",
+							"speakers": [
+								{
+									"img": "https://media.graphassets.com/resize=fit:crop,height:100,width:100/output=format:png/CzoA9Hn0Tym7kPsFVMfS",
+									"name": "Ziv Levy"
+								},
+								{
+									"img": "https://media.graphassets.com/resize=fit:crop,height:100,width:100/output=format:png/oiQeR8YRpec1gDNkFt72",
+									"name": "Stefania Ioana Chiorean"
+								},
+								{
+									"img": "https://media.graphassets.com/resize=fit:crop,height:100,width:100/output=format:png/UWmiqSaOTr9sj0lecVa8",
+									"name": "Daniel Afonso"
+								}
+							]
+						}
+					]
+				},
+				{
+					"component": "follow-us",
+					"title": "Follow us<br> for updates",
+					"description": "Subscribe to our conference newsletter and get the latest updates and special deals"
+				},
+				{
+					"component": "bars",
+					"title": "TechLeadConf",
+					"description": "Join Spatial.chat and enjoy a remote communication with the community!",
+					"list": [
+						{
+							"title": "DRAW BATTLE",
+							"text": "A game as unique as the people who play it",
+							"btnText": "Join",
+							"btnLink": "#"
+						},
+						{
+							"title": "CHIT-CHAT ROOM",
+							"text": "Join to talk to other community members on topics around TechLeadConf and many more!",
+							"btnText": "Join",
+							"btnLink": "#"
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "faq",
+			"blocks": [
+				{
+					"component": "hero",
+					"title": "FAQ"
+				},
+				{
+					"component": "faq",
+					"description": "<p>Our team is always striving to provide the best support to help you with any questions related to conference attendance and to make information more transparent and instantly accessible, we've started gathering most frequently asked questions on the page below. </p><p>If you can't find an answer to your question below – contact us via <a href=\"mailto:events@gitnation.org\">events@gitnation.org</a>.</p>",
+					"list": [
+						{
+							"title": "Program",
+							"list": [
+								{
+									"title": "What is the timing of the conference",
+									"text": "<p>The talks &amp; QnAs will be held on March 9 from 4pm CET until around 9pm CET. And on March 10 there will be 4-5 discussion rooms (not live-streamed) from 5pm to 7pm CET.</p>"
+								}
+							]
+						},
+						{
+							"title": "Organisational info",
+							"list": [
+								{
+									"title": "Where can I find all logistics and organisational information on how to connect, what the exact schedule is, etc?",
+									"text": "<p>You will get an email with all the information you’ll need at the conference about 2-3 days before the event &amp; we'll duplicate the message on the day of the conference before the stream.</p><p>If you didn't receive the email, please check your spam folder.</p><p>And if you still haven't found the email, please contact us via events@gitnation.org.</p>"
+								}
+							]
+						},
+						{
+							"title": "Actions with tickets",
+							"list": [
+								{
+									"title": "If I can’t attend the conference, can I give the ticket to my friend/colleague?",
+									"text": "<p>Yes, you can. Simply re-assign your ticket in your confirmation email you’ve received after registration. Pay attention that only a ticket buyer can re-assign tickets.</p>"
+								},
+								{
+									"title": "I’d like to buy a ticket. Can you issue an invoice for my order?",
+									"text": "<p>Yes, it is possible to pay via invoice. Please, send your company details to events@gitnation.org and we will issue it for you:</p><ul><li>company name</li><li>company address</li><li>VAT number</li><li>number and type of tickets</li></ul>"
+								}
+							]
+						}
+					]
 				}
 			]
 		}

@@ -1,0 +1,27 @@
+---
+layout: 'layout.njk'
+slug: 'faq'
+lang: 'lat'
+
+---
+
+{% include '_header.njk' %}
+
+{% for pages in data.pages %}
+   {% if pages.slug == slug %}
+
+
+      {% for blocks in pages.blocks %}
+         {% if blocks.component == "hero" %}
+            {% include '_hero-inner.njk' %}
+         {% endif %}
+         {% if blocks.component == "faq" %}
+            {% include '_faq.njk' %}
+         {% endif %}
+      {% endfor %}
+
+
+   {% endif %}
+{% endfor %}
+
+{% include '_footer.njk' %}

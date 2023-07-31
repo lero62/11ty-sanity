@@ -1,5 +1,4 @@
 let Nunjucks = require("nunjucks");
-require("dotenv").config();
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("src/assets");
